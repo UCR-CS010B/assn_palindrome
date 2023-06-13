@@ -22,7 +22,7 @@ TEST(PalindromeTest, IterativeTrue) {
   EXPECT_TRUE(utils::iterative::is_palindrome(""));
   EXPECT_TRUE(utils::iterative::is_palindrome("o"));
   EXPECT_TRUE(utils::iterative::is_palindrome("bob"));
-  EXPECT_TRUE(utils::iterative::is_palindrome("boob"));
+  EXPECT_TRUE(utils::iterative::is_palindrome("boob")) << "this is the negative message";
 }
 
 TEST(PalindromeTest, IterativeFalse) {
